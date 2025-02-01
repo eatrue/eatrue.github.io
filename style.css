@@ -124,29 +124,33 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 40px 0;
-    font-size: 14px;
+    padding: 20px 0;
 }
 
-footer .get-the-app {
+footer .container {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between elements */
 }
 
-footer .get-the-app a {
-    display: inline-block;
-    width: 130px; /* Set width for the icons */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
 
-footer .get-the-app a img {
-    width: 100%;  /* Ensure images are responsive */
+/* Get the App Section */
+.get-the-app {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.get-the-app img {
+    width: 120px; /* Adjust the size of the store icons */
     height: auto;
-    max-width: 120px; /* Limit max width */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
-footer .get-the-app a img:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
+.get-the-app img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
