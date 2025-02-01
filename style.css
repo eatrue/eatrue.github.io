@@ -17,14 +17,14 @@ body {
 
 /* Header Section */
 header {
-    background-color: #b7b78a; /* Green from your presentation */
+    background-color: #e0ede7; /* Green from your presentation */
     color: #fff;
     text-align: center;
     padding: 60px 0;
 }
 
 header .logo {
-    width: 1000px;
+    width: 5000px;
     height: auto;
     margin-bottom: 20px;
 }
