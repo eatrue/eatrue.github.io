@@ -146,7 +146,7 @@ footer p {
 }
 
 .get-the-app img {
-    width: 120px; /* Adjust the size of the store icons */
+    width: 80px; /* Adjust the size of the store icons */
     height: auto;
     transition: transform 0.3s ease; /* Smooth hover effect */
 }
