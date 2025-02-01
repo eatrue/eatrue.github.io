@@ -121,8 +121,8 @@ header .tagline {
 /* Get the App Section */
 .get-the-app {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     display: flex;
     gap: 15px;
     justify-content: flex-end;
@@ -134,8 +134,13 @@ header .tagline {
 }
 
 .get-the-app a img {
-    width: 130px; /* Adjust the width for proper size */
+    width: 120px; /* Adjust width of the icons */
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.get-the-app a img:hover {
+    transform: scale(1.1); /* Hover effect for a smooth zoom */
 }
 
 /* Footer */
