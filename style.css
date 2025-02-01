@@ -34,6 +34,7 @@ header .app-name {
     font-weight: 700;
     color: #b72b2b;
     margin-left: 10px;
+    text-align: left;
 }
 
 header .tagline {
@@ -121,8 +122,8 @@ header .tagline {
 /* Get the App Section */
 .get-the-app {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px; /* Set the distance from the bottom of the screen */
+    right: 20px;  /* Set the distance from the right edge */
     display: flex;
     gap: 15px;
     justify-content: flex-end;
@@ -131,11 +132,13 @@ header .tagline {
 
 .get-the-app a {
     display: inline-block;
+    width: 130px; /* Set a specific width for the app store buttons */
 }
 
 .get-the-app a img {
-    width: 120px; /* Adjust width of the icons */
+    width: 100%;  /* Ensure images are responsive and fill the width */
     height: auto;
+    max-width: 120px; /* Limit the maximum width of the icons */
     transition: transform 0.3s ease;
 }
 
