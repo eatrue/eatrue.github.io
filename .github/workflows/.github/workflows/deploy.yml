@@ -1,0 +1,14 @@
+name: Example Workflow
+
+on: [push]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
