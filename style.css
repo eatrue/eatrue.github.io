@@ -176,6 +176,75 @@ nav ul li a:hover {
   color: #666;
 }
 
+/* SDG Section */
+.sdg {
+  background: var(--white);
+  padding: 4rem 0;
+}
+
+.sdg h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sdg p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.sdg-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.sdg-card {
+  background: var(--background-color);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sdg-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sdg-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.sdg-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.sdg-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Responsive Design for SDG Section */
+@media (max-width: 768px) {
+  .sdg-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .sdg-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Footer */
 footer {
   background: #2c3e50;
