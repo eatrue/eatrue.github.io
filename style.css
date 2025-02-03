@@ -37,7 +37,7 @@ header .container {
 }
 
 .logo img {
-  height: 50px;
+  height: 25px;
 }
 
 nav ul {
@@ -123,7 +123,7 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 30%;
   margin-top: 2rem;
 }
 
